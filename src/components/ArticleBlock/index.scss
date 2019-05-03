@@ -1,0 +1,21 @@
+
+.article-title{
+  font:{
+    size:24px;
+    weight:bolder;
+  }
+  cursor:default;
+  color:blue;
+  text-decoration:underline;
+}
+
+.article-date{
+  margin: 10px 0px;
+  font:{
+    size:14px;
+  }
+}
+
+.article-description {
+  white-space: pre-wrap;
+}
