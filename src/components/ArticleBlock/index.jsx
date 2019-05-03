@@ -1,4 +1,5 @@
 import React from "react";
+import Moment from 'react-moment';
 
 import "./index.scss";
 
@@ -9,7 +10,7 @@ const ArticleBlock = props => {
        {props.title}
      </div>
      <div className="article-date">
-       {props.date}
+       <Moment format="DD/MM/YYYY">{props.date}</Moment>
      </div>
      <div className="article-description" dangerouslySetInnerHTML={{__html:props.description}} />
    </div>
