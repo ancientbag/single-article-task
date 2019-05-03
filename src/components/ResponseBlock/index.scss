@@ -1,0 +1,56 @@
+.response-block {
+  position:relative;
+  margin-top:20px;
+  width:100%;
+  border:1px solid black;
+  box-sizing: border-box;
+  padding:10px 15px;
+  padding-top:20px;
+}
+
+.response-row {
+  display:flex;
+  margin:5px 0;
+}
+
+.response-label {
+  position: absolute;
+  top:-15px;
+  left:20px;
+  background:#fff;
+  box-sizing: border-box;
+  padding:5px 10px;
+}
+
+.response-field{
+  cursor:default;
+  width:180px;
+}
+
+.response-input{
+  width:200px;
+  outline:none;
+  height:16px;
+  border:1px solid #cecece;
+}
+
+.response-message {
+  width:400px;
+  height:140px;
+  outline:none;
+  border:1px solid #cecece;
+  resize:none;
+}
+
+.response-btn {
+  cursor:pointer;
+  background:cornflowerblue;
+  outline: none;
+  color:#fff;
+  border:0;
+  box-sizing: border-box;
+  padding:5px 10px;
+  font:{
+    weight:bolder;
+  }
+}
